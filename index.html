@@ -512,7 +512,6 @@ footer .copyright{font-size:11px;color:rgba(255,255,255,0.4);letter-spacing:1px;
   let src=null;
   try{const imgs=window.parent.document.querySelectorAll('img');imgs.forEach(img=>{if(img.naturalWidth>50&&img.src&&!img.src.includes('anthropic')&&!img.src.includes('claude'))src=img.src;});}catch(e){}
   if(!src){try{const els=window.parent.document.querySelectorAll('[src]');els.forEach(el=>{if(el.src&&el.src.startsWith('blob:'))src=el.src;});}catch(e){}}
-  if(src){['nav-logo','hero-logo','about-logo'].forEach(id=>{const el=document.getElementById(id);if(el)el.src=src;});}
 })();
 
 function switchTab(id,el){
