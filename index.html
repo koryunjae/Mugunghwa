@@ -425,29 +425,22 @@ footer .copyright{font-size:11px;color:rgba(255,255,255,0.4);letter-spacing:1px;
     <p class="section-label">Dining Experience</p>
     <h2 class="section-title">Reserve a Table</h2>
     <div class="gold-line"></div>
-    <div class="form-row">
-      <div class="form-group"><label>First Name</label><input type="text" placeholder="Soo-Jin"/></div>
-      <div class="form-group"><label>Last Name</label><input type="text" placeholder="Kim"/></div>
-    </div>
-    <div class="form-row">
-      <div class="form-group"><label>Email Address</label><input type="email" placeholder="your@email.com"/></div>
-      <div class="form-group"><label>Phone Number</label><input type="tel" placeholder="(510) 989-5019"/></div>
-    </div>
-    <div class="form-row">
-      <div class="form-group"><label>Date</label><input type="date"/></div>
-      <div class="form-group"><label>Time</label>
-        <select><option>11:00 AM</option><option>11:30 AM</option><option>12:00 PM</option><option>12:30 PM</option><option>1:00 PM</option><option>5:00 PM</option><option>6:00 PM</option><option>7:00 PM</option><option>8:00 PM</option></select>
+    <p style="font-size:15px;color:#4A3728;line-height:1.9;margin-bottom:32px;">We accept reservations by phone only. Please call us to book your table and our team will be happy to assist you.</p>
+    <div style="background:var(--brown-pale);border:1px solid #e8ddd5;padding:20px 28px;margin-bottom:32px;text-align:left;max-width:500px;margin:0 auto 32px;">
+      <div style="font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--brown);margin-bottom:14px;">Reservation Policy</div>
+      <div style="display:flex;flex-direction:column;gap:10px;">
+        <div style="display:flex;align-items:flex-start;gap:10px;font-size:14px;color:#4A3728;">
+          <span style="color:var(--brown-mid);">✦</span> Reservations are available for parties of <strong>6 or more</strong>
+        </div>
+        <div style="display:flex;align-items:flex-start;gap:10px;font-size:14px;color:#4A3728;">
+          <span style="color:var(--brown-mid);">✦</span> Same-day reservations are <strong>not available</strong>
+        </div>
+        <div style="display:flex;align-items:flex-start;gap:10px;font-size:14px;color:#4A3728;">
+          <span style="color:var(--brown-mid);">✦</span> A 20% service charge will be added for all reserved parties
+        </div>
       </div>
     </div>
-    <div class="form-row">
-      <div class="form-group"><label>Party Size</label>
-        <select><option>6 Guests</option><option>7 Guests</option><option>8 Guests</option><option>9 Guests</option><option>10 Guests</option><option>11+ Guests</option></select>
-      </div>
-      <div class="form-group"><label>Special Notes</label><input type="text" placeholder="e.g. window seat, high chair..."/></div>
-    </div>
-    <div class="form-group"><label>Additional Requests</label><textarea placeholder="Dietary restrictions, seating preferences, or any special notes..."></textarea></div>
-    <button class="btn-submit" onclick="submitReservation()">Request Reservation</button>
-    <div class="success-msg" id="successMsg">Thank you! Your reservation request has been received. We will confirm within 24 hours.</div>
+    <a href="tel:+15109895019" style="display:inline-block;background:var(--brown);color:#fff;padding:16px 48px;font-size:12px;letter-spacing:2.5px;text-transform:uppercase;text-decoration:none;margin-top:8px;">Reserve a Table</a>
   </div>
 </section>
 
