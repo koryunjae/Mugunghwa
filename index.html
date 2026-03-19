@@ -174,11 +174,11 @@ footer .copyright{font-size:11px;color:rgba(255,255,255,0.4);letter-spacing:1px;
       </div>
     </div>
     <ul class="nav-links">
-      <li><a href="#about">About</a></li>
-      <li><a href="#menu">Menu</a></li>
-      <li><a href="#order">Order</a></li>
-      <li><a href="#reservation">Reserve</a></li>
-      <li><a href="#location">Visit</a></li>
+      <li><a href="#about" onclick="event.preventDefault();document.getElementById('about').scrollIntoView({behavior:'smooth'})">About</a></li>
+      <li><a href="#menu" onclick="event.preventDefault();document.getElementById('menu').scrollIntoView({behavior:'smooth'})">Menu</a></li>
+      <li><a href="#order" onclick="event.preventDefault();document.getElementById('order').scrollIntoView({behavior:'smooth'})">Order</a></li>
+      <li><a href="#reservation" onclick="event.preventDefault();document.getElementById('reservation').scrollIntoView({behavior:'smooth'})">Reserve</a></li>
+      <li><a href="#location" onclick="event.preventDefault();document.getElementById('location').scrollIntoView({behavior:'smooth'})">Visit</a></li>
     </ul>
     <button class="nav-cta" ...>Reserve a Table</button>
     <div class="hamburger" id="hamburger" onclick="toggleMenu()" style="display:none;">
